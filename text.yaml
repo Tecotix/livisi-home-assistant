@@ -1,0 +1,19 @@
+type: custom:useful-markdown-card
+content: >
+  ## Wetterwarnungen 
+
+  <table style="width:100%">
+    <tr>
+    <th>Von</th>
+    <th>Bis</th> 
+    <th>Warnung</th>
+  </tr>
+  <tr>
+    <td><time datetime=[[ sensor.dwdweatherwarnings_current_warning_level.attributes.warning_1_start ]]></td>
+    <td>[[ sensor.dwdweatherwarnings_current_warning_level.attributes.warning_1_end ]]</td> 
+    <td>[[ sensor.dwdweatherwarnings_current_warning_level.attributes.warning_1_description ]]</td>
+  </tr>
+  
+  </table>
+
+  
