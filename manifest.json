@@ -1,0 +1,11 @@
+{
+  "domain": "hass_livisi",
+  "name": "Livisi Home Assistant",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/hass_livisi",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [
+      "@tecotix"
+  ]
+}
